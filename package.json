@@ -1,0 +1,17 @@
+{
+  "name": "exp1",
+  "version": "1.0.0",
+  "description": "exp",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev" : "node --env-file=.env --watch index.js",
+    "start": "node index.js" 
+  },
+  "author": "abhi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
