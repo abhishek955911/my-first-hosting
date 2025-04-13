@@ -1,10 +1,10 @@
 import express from "express";
 const app = express();
-app.get("/",(req,res)=>{
+app.get("/contact",(req,res)=>{
     res.send("<h1>hello</h1>")
 
 })
-app.get("/contact",(req,res)=>{
+app.get("/",(req,res)=>{
     res.send(`<!DOCTYPE html>
 <html lang="en">
 <head>
